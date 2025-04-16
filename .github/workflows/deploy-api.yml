@@ -27,7 +27,7 @@ jobs:
         run:  docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
         
       - name: docker push
-        run:  docker push ${{ secrets.DOCKER_USER}}/mysql-restapi:${{github.sha}}   
+        run:  docker push ${{ secrets.DOCKER_USER}}/mysql-carsapi:${{github.sha}}   
 
      # - run: docker build -t giovanni760/pg-restapi .
       #- run: docker images
