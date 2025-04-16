@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.12.3"
+  },
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "cars crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "giovanni",
+  "license": "MIT"
+}
