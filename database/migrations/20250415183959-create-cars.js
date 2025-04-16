@@ -17,7 +17,7 @@ module.exports = {
       marca: {
         type: Sequelize.STRING
       },
-      año: {
+      age: {
         type: Sequelize.INTEGER
       },
       color: {

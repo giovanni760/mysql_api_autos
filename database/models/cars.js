@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     matricula: DataTypes.STRING,
     modelo: DataTypes.STRING,
     marca: DataTypes.STRING,
-    año: DataTypes.INTEGER,
+    age: DataTypes.INTEGER,
     color: DataTypes.STRING,
     cilindros: DataTypes.INTEGER
   }, {
